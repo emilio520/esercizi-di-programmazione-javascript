@@ -11,3 +11,7 @@
 
   http://www.imparareaprogrammare.it
 */
+var d=new Date(), Anno_nas=1975
+var Anno_cor=d.getFullYear()
+console.log('Ha esattamente',Math.abs(Anno_nas-Anno_cor),'anni.');
+console.log('Per arrivare a 100 gli mancano esattamente',100-Math.abs(Anno_nas-Anno_cor),'anni!!');
