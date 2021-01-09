@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var NGatti = 44
+var NGattixFile = 6
+var NFile = Math.ceil(NGatti/NGattixFile)
+console.log('N° File :',NFile);
+var NGattiMancanti = NFile*NGattixFile-NGatti
+console.log('N° Gatti mancanti per riempire completamente ultima Fila:',NGattiMancanti);

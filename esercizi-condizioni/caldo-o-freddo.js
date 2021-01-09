@@ -9,3 +9,6 @@
 
   http://www.imparareaprogrammare.it
 */
+var a = 10, b = -2, c = 31, d = 22, e = 15, f = -6, g = 7
+console.log('Giornta più calda:',Math.max(a,b,c,d,e,f));
+console.log('Giornta più fredda:',Math.min(a,b,c,d,e,f));

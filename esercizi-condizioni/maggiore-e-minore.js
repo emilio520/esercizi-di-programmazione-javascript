@@ -10,3 +10,6 @@
 
   http://www.imparareaprogrammare.it
 */
+var a=3, b=-1, c=4, d=-2
+console.log('Il numero Maggiore è :',Math.max(a,b,c,d));
+console.log('Il numero Minore è   :',Math.min(a,b,c,d));

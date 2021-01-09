@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var Nsec = 65
+var Nore = Math.floor(Nsec/3600)
+var Nminuti = Math.floor((Nsec - Nore*3600)/60)
+var Nsecondi = Math.round((((Nsec-Nore*3600)/60)-Nminuti)*60)
+console.log('Ore:',Nore);
+console.log('Minuti:',Nminuti);
+console.log('Secondi:',Nsecondi);

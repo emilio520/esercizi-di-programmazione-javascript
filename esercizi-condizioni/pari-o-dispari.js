@@ -15,3 +15,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var Ninput = 63
+if (Ninput %2 == 0) {
+  console.log('Si tratta di un numero pari!!');
+} else {
+  console.log('Si tratta di un numero dispari!!');
+}

@@ -21,3 +21,15 @@
 
   http://www.imparareaprogrammare.it
 */
+var Ninput = 4
+if (Ninput == 1) {
+  console.log('Hai scelto il dolce "Tiramisù"');
+} else if (Ninput ==2) {
+  console.log('Hai scelto il dolce "Torta della Nonna"');
+} else if (Ninput ==3) {
+  console.log('Hai scelto il dolce "Cheesecake alla Nutella"');
+} else if (Ninput ==4) {
+  console.log('Hai scelto il dolce "Macedonia"');
+} else {
+  console.log('Dolce non disponibile');
+}

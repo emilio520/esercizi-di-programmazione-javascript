@@ -11,3 +11,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var Ninput = 9
+if (Ninput.toString().length <=4) {
+  console.log('Il numero è formato da',Ninput.toString().length,'cifre');
+} else {
+  console.log('Numero composto da più di 4 cifre');
+}
