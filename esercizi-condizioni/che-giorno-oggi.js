@@ -22,3 +22,24 @@
 
   http://www.imparareaprogrammare.it
 */
+var NDay = 7
+switch (NDay) {
+  case 1:
+    day = "Lunedì";
+    break;
+  case 2:
+    day = "Martedì";
+    break;
+  case 3:
+    day = "Mercoledì";
+    break;
+  case 4:
+    day = "Giovedi";
+    break;
+  case 5:
+    day = "Venerdì";
+    break;
+  default:
+    day = "un giorno non valido"
+}
+console.log('Il giorno scelto è',day);
